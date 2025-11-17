@@ -1,0 +1,4 @@
+CREATE TABLE tb_category (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    categoria VARCHAR(100) NOT NULL
+);

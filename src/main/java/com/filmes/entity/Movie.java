@@ -1,4 +1,4 @@
-package com.filmes.model;
+package com.filmes.entity;
 
 import jakarta.persistence.*;
 
@@ -10,5 +10,8 @@ public class Movie {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    @Column(name = "titulo")
     private String name;
+
+
 }
